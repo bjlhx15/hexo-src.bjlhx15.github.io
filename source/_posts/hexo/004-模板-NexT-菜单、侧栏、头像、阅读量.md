@@ -2,6 +2,7 @@
 title: 004-模板-NexT-菜单、侧栏、头像、阅读量
 categories:
   - hexo
+abbrlink: 8ecccc4b
 date: 2020-01-29 20:55:26
 tags:
 ---

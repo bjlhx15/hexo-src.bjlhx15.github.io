@@ -2,6 +2,7 @@
 title: 008-模板-NexT-版权、打赏
 categories:
   - hexo
+abbrlink: 7021388e
 date: 2020-01-30 21:03:35
 tags:
 permalink:
