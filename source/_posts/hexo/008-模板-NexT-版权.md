@@ -69,4 +69,3 @@ reward:
   alipay: /images/reward/bjlhx-zfb.bmp
   #bitcoin: /images/bitcoin.png
 ```
-
