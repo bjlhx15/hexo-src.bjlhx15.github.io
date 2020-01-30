@@ -1,9 +1,11 @@
 ---
 title: 002-github pages建站，绑定主题
+categories:
+  - build_site
+abbrlink: e012e91a
 date: 2020-01-30 17:14:39
 tags:
-categories: 
-- build_site
+urlname:
 ---
 
 搭建属于自己的博客网站，这里使用 github pages建站，绑定主题
@@ -98,3 +100,8 @@ theme: next
 ``` 
 访问[https://bjlhx15.github.io](https://bjlhx15.github.io)即可
 
+
+
+# 文章编写
+    将：src 源码下载，使用idea，eclipse等打开
+    在：source/_posts 下分目录 编写文章即可

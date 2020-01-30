@@ -1,10 +1,11 @@
 ---
-title: 003-模板-scaffolds
-date: 2020-01-29 17:50:49
-categories: 
-- hexo
+title: 003-模板-scaffolds、permalink永久链接
+categories:
+  - hexo
 tags:
-- hexo
+  - hexo
+abbrlink: 5c36d9d6
+date: 2020-01-29 17:50:49
 ---
 
 模板以scaffolds/post.md为例，对updated、permalink等参数进行说明
@@ -82,5 +83,45 @@ date: 2020-01-29 17:50:48
 permalink: https://bjlhx.top/2020/01/29/ABC/
 ```
 
+### Hexo-abbrlink生成唯一永久文章链接
+hexo-next文章链接默认的生成规则是：:year/:month/:day/:title，是按照年、月、日、标题来生成的。
 
+如果文章标题是中文的话，URL链接是也会是中文，
 
+方案一、使用hexo-permalink-pinyin插件，将中文转英文
+
+缺陷，比如修改了文章标题，重新hexo三连后，URL就变了，以前的文章地址变成了404。而且这样生成的URL层级也很深，不利于SEO。
+
+方案二、Hexo-abbrlink
+
+一、不用增加属性，也不用考虑分类中文化的问题。二、URL层级更短，更利于SEO。(一般SEO只爬三层)
+
+在执行 `hexo g` 的时候根据 文件内的title 生成CRC，为了降低碰撞，建议文件内的title，date最好修改
+
+并且 URL ：articles/:abbrlink.html 可设置为：`articles/:year:month:day/:abbrlink.html`
+1. 插件安装
+``` bash
+npm install hexo-abbrlink --save
+```
+2. 配置
+``` yaml
+permalink: articles/:year:month:day/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink
+abbrlink:
+    alg: crc32   #算法： crc16(default) and crc32
+    rep: hex     #进制： dec(default) and hex
+```
+生成的链接将会是这样的(官方样例)：
+``` text
+crc16 & hex
+https://post.zz173.com/posts/66c8.html
+
+crc16 & dec
+https://post.zz173.com/posts/65535.html
+
+crc32 & hex
+https://post.zz173.com/posts/8ddf18fb.html
+
+crc32 & dec
+https://post.zz173.com/posts/1690090958.html
+```
+生成完后，原md文件的Front-matter 内会增加abbrlink 字段，值为生成的ID 。这个字段确保了在我们修改了Front-matter 内的博客标题title或创建日期date字段之后而不会改变链接地址。

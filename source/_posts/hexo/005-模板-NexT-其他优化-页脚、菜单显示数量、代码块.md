@@ -1,9 +1,10 @@
 ---
 title: 005-模板-NexT-其他优化-页脚、菜单显示数量、代码块
+categories:
+  - hexo
+abbrlink: 12b9aaef
 date: 2020-01-29 22:30:06
 tags:
-categories: 
-- hexo
 permalink:
 ---
 

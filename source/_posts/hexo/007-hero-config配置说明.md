@@ -1,11 +1,12 @@
 ---
 title: 007-hero-config配置说明
+categories:
+  - hexo
+copyright: true
+abbrlink: 6fe23d4d
 date: 2020-01-30 12:12:07
 tags:
-categories: 
-- hexo
 permalink:
-copyright: true #新增,开启
 ---
 
 位于站点根目录下的 _config.yml 文件，可以直接用记事本打开进行编辑，文件中的具体配置项.  

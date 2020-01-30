@@ -1,9 +1,10 @@
 ---
 title: 006-模板-NexT-三方服务-搜索、统计分析、评论
+categories:
+  - hexo
+abbrlink: f6f5115
 date: 2020-01-29 23:09:31
 tags:
-categories: 
-- hexo
 permalink:
 ---
 

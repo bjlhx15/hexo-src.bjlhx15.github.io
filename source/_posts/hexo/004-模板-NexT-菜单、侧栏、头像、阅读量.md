@@ -1,9 +1,10 @@
 ---
 title: 0004-模板-NexT-菜单、侧栏、头像、阅读量
+categories:
+  - hexo
+abbrlink: e89588
 date: 2020-01-29 20:55:26
 tags:
-categories: 
-- hexo
 ---
 
 Hexo 框架允许我们更换合适的主题，以便于构建不同风格的网站，这里介绍目前最常使用的一款主题之NexT
