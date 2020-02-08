@@ -12,5 +12,11 @@ comments: false
   - 其他：jmter、
   - DB：mysql
   
-联系方式：微信
+联系方式：
+
+<!--![](../images/about/wx-qr.jpeg)-->
+<center>
+<img src="/images/about/wx-qr.jpeg" width="200px" height="200px" />
+微信
+</center>
 
