@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6fa6934-220d-4b17-b703-0cc986b5c98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql-core/01-网络连接层.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql-core/02-Server服务层.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql-core/03-存储引擎层、InnoDB 架构.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql-core/04-存储引擎层-innodb框架-磁盘上的结构-表空间.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql-core/05-存储引擎层-innodb框架-表空间-ibd.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql-core/06-存储引擎层-innodb框架-表空间-ibd-段、区、页与组织结构.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql-core/07-存储引擎层-innodb框架-表空间-系统表空间.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql-core/09-存储引擎层-innodb框架-索引-使用B+树组织数据、实例查看数据.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql-core/10-存储引擎层-innodb框架-内存架构.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql-core/11-InnoDB-MVCC、事务隔离级别、ACID模型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql/002-mysql-基础操作-展示库表信息.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/db-mysql/003-mysql-基础操作-操作库表字段索引信息.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/linux-shell/001-shell-概述与命令行区别.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/linux-shell/002-cmd-hexdump进制文件查看工具.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/tools/001-tools-mac-sublime text3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/about/wx-qr.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/post/db-mysql/page-struct.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/db-mysql/001-mysql-物理存储、InnoDB数据B+树存储.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/db-mysql/001-mysql-主键设计.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/db-mysql/002-mysql索引-从树到B+树，聚集索引与非聚集索引.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/db-mysql-core/08-存储引擎层-innodb框架-索引-树到B+树演变、聚集索引与非聚集索引.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/about/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/about/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/tools/002-tools-mac-vscode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/tools/001-tools-mac-sublime text3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/tools/001-tools-mac-sublime text3.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/tools/001-tools-mac-sublime text3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="612">
-                <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+              <first_editor relative-caret-position="441">
+                <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/tools/002-tools-mac-vscode.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="513">
+                <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+                <folding>
+                  <element signature="n#\s\s\s 界面展示语言设置&#10;#0" />
+                </folding>
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -64,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/_posts/db-mysql/007-mysql底层分析-05-存储引擎层-innodb系统结构-索引-演变.md" />
-        <option value="$PROJECT_DIR$/source/_posts/db-mysql/009-mysql底层分析-07-存储引擎层-innodb系统结构-索引-内部结构.md" />
         <option value="$PROJECT_DIR$/source/_posts/db-mysql/005-mysql底层分析-03-存储引擎层-innodb框架.md" />
         <option value="$PROJECT_DIR$/source/_posts/db-mysql/008-mysql底层分析-06-存储引擎层-innodb系统结构-索引-B+树物理结构.md" />
         <option value="$PROJECT_DIR$/source/_posts/db-mysql-core/05-存储引擎层-innodb系统结构-索引-树演变.md" />
@@ -114,7 +111,9 @@
         <option value="$PROJECT_DIR$/source/_posts/db-mysql/002-mysql-基础操作-展示库表信息.md" />
         <option value="$PROJECT_DIR$/source/_posts/linux-shell/002-cmd-hexdump进制文件查看工具.md" />
         <option value="$PROJECT_DIR$/source/_posts/tools/001-tools-sublime text3.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/source/_posts/tools/001-tools-mac-sublime text3.md" />
+        <option value="$PROJECT_DIR$/source/_posts/tools/002-tools-mac-vscode.md" />
       </list>
     </option>
   </component>
@@ -154,20 +153,6 @@
               <item name="hexo-src.bjlhx15.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="hexo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo-src.bjlhx15.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo-src.bjlhx15.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="linux-shell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo-src.bjlhx15.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo-src.bjlhx15.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -178,7 +163,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/_posts/db-mysql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/_posts/tools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -188,11 +173,11 @@
       <recent name="$PROJECT_DIR$/source/images/post/db-mysql" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/_posts/tools" />
       <recent name="$PROJECT_DIR$/source/_posts/db-mysql" />
       <recent name="$PROJECT_DIR$/source/_posts/db-mysql-core" />
       <recent name="$PROJECT_DIR$/source/_posts/linux-shell" />
       <recent name="$PROJECT_DIR$/source/_posts" />
-      <recent name="$PROJECT_DIR$/source/_posts/build_site" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,7 +201,7 @@
       <updated>1580394047393</updated>
       <workItem from="1580394049419" duration="101995000" />
       <workItem from="1581069052651" duration="1274000" />
-      <workItem from="1581124045962" duration="3504000" />
+      <workItem from="1581124045962" duration="4909000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1580394121419</created>
@@ -253,14 +238,43 @@
       <option name="project" value="LOCAL" />
       <updated>1580482961135</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init">
+      <created>1581130627649</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581130627649</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init">
+      <created>1581130735271</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581130735271</updated>
+    </task>
+    <task id="LOCAL-00008" summary="init">
+      <created>1581130787240</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581130787240</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init">
+      <created>1581130871458</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581130871458</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106773000" />
+    <option name="totallyTimeSpent" value="108178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-168" y="-1080" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25802997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -298,8 +312,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/posts-2020/e89588.html" />
-    <entry file="file://$PROJECT_DIR$/public/posts-2020/e012e91a.html" />
     <entry file="file://$PROJECT_DIR$/public/posts-2020/82195907.html" />
     <entry file="file://$PROJECT_DIR$/source/_posts/build_site/001-命令-服务、生成、部署、清理.md" />
     <entry file="file://$PROJECT_DIR$/public/posts-2019/26856f5b.html" />
@@ -681,11 +693,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/tools/001-tools-mac-sublime text3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="612">
-            <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <first_editor relative-caret-position="441">
+            <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -695,6 +714,21 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/tools/002-tools-mac-vscode.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="513">
+            <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            <folding>
+              <element signature="n#\s\s\s 界面展示语言设置&#10;#0" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

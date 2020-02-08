@@ -51,13 +51,13 @@ Ctrl+Shift+p输入install选中Install Package回车就可以安装插件。
 
 ### 安装markdown 相关
 
-1. 安装预览：cmd+ shift + p,输入 install package，注意看左下角在加载，完毕后 出现输出框，输入markdown preview 查找合适即可
+1. 安装预览：cmd+ shift + p,输入 install package，注意看左下角在加载，完毕后 出现输出框，输入 markdown preview 查找合适即可
 
 ```
-ddsddfsfdd  sfs  sdf
+test
 ```
 
-
+markdown edit,preview
 
 
 
