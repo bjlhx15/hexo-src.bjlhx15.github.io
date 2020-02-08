@@ -29,3 +29,5 @@ node_modules/
 public/
 .deploy*/
 .deploy_git
+.idea
+.idea/
