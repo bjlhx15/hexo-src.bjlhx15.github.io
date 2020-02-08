@@ -44,6 +44,11 @@ command + shift + p，配置语言 或者 Configure Language，选择后会打�
 ## git使用
 
 点击 左侧 打开git 操作窗，列表中即文件变化
+1. 界面说明
+```
+    左下角，分支选择
+    
+```
 
 1. 输入框可以输入 commit message，上面 对号 是提交 
 
