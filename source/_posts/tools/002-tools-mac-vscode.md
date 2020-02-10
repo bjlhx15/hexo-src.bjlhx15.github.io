@@ -2,6 +2,7 @@
 title: 002-tools-mac-vscode
 categories:
   - tools
+abbrlink: 6d6ffdd4
 date: 2020-02-08 13:59:07
 tags:
 ---
@@ -32,6 +33,8 @@ command + shift + p，配置语言 或者 Configure Language，选择后会打�
 1. 界面说明
 顶部：工具栏
 最左侧：快捷工具栏【资源管理器、搜索、git、调试、扩展工具】
+2. 关闭更新
+并将联机社会组中部分关闭
 
 ## 常用快捷键
 ```
@@ -48,11 +51,11 @@ command + shift + p，配置语言 或者 Configure Language，选择后会打�
 ```
     左下角，分支选择
     顶部 操作
-    省略号  是 git更多操作
+    省略号  是 git更多操作 
 ```
 
-
-
+## markdown 支持
+  vscode 在没有安装任何插件的情况下是可以直接编写markdown文档的，以及 可以预览
 
 
 

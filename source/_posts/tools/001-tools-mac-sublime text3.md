@@ -2,6 +2,7 @@
 title: 001-tools-mac-sublime text3
 categories:
   - tools
+abbrlink: 6c7c66a
 date: 2020-02-08 09:09:21
 tags:
 ---

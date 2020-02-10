@@ -1,8 +1,8 @@
 ---
-title: 002-mysql-基础操作-展示库表信息
+title: 002-mysql-基础操作-连接、库表操作、字段
 categories:
   - db-mysql
-abbrlink: eb170de1
+abbrlink: 8d83348a
 date: 2020-02-05 20:33:40
 tags:
 ---
@@ -102,6 +102,71 @@ create database if not  exists  库名 default charset utf8 collate utf8_general
 select * from information_schema.schemata where schema_name = 'test_sql'; 
 -- def	test_sql	utf8	utf8_general_ci	
 ```
+### 字段约束
+创建表时, 除了要给每个列指定对应的数据类型, 有时也需要给列添加约束。常见的约束有：主键约束、唯一约束、非空约束、外键约束。
+
+#### 主键(primary key)【主键索引，聚集索引】
+主键是数据表中，一行记录的唯一标识。比如学生的编号，人的身份证号;
+当主键为数值时，为了方便维护，可以设置主键为自增（auto_increment）
+
+#### 唯一(unique)
+保证所约束的列必须是唯一的，即不能重复出现，例如：用户注册时，保存的用户名不可以重复。
+
+> - 约束 全称完整性约束，它是关系数据库中的对象，用来存放插入到一个表中一列数据的规则，用来确保数据的准确性和一致性。
+> - 索引 数据库中用的最频繁的操作是数据查询，索引就是为了加速表中数据行的检索而创建的一种分散的数据结构。可以把索引类比成书的目录，有目录的肯定比没有目录的书，更方便查找。
+> - 唯一约束 保证在一个字段或者一组字段里的数据都与表中其它行的对应数据不同。和主键约束不同，唯一约束允许为 NULL，只是只能有一行。
+> - 唯一索引 不允许具有索引值相同的行，从而禁止重复的索引或键值。
+
+在mysql 中唯一约束 与 唯一索引 一样。
+
+```sql
+-- 唯一约束
+create table t1(
+	id int primary key AUTO_INCREMENT  COMMENT '主键约束',
+	username varchar(50) UNIQUE comment '唯一约束',
+	password varchar(50) not null comment '非空约束',
+	address varchar(50) default null comment '默认为空'
+);
+```
+```sql
+-- 建立唯一索引
+create table t2(
+	id int primary key AUTO_INCREMENT  COMMENT '主键约束',
+	username varchar(50) default null comment '约束',
+	password varchar(50) not null comment '非空约束',
+	address varchar(50) default null comment '默认为空'
+);
+ALTER  TABLE  `t2`  ADD  UNIQUE (`username` ) ;
+```
+查看 ddl t1,t2均为
+```sql
+CREATE TABLE `t1` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键约束',
+  `username` varchar(50) COLLATE utf8_bin DEFAULT NULL COMMENT '唯一约束',
+  `password` varchar(50) COLLATE utf8_bin NOT NULL COMMENT '非空约束',
+  `address` varchar(50) COLLATE utf8_bin DEFAULT NULL COMMENT '默认为空',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin
+```
+
+#### 非空(not null)
+保证所约束的列必须是不为空的，即在插入记录时，该列必须要赋值，例如：用户注册时，保存的密码不能为空。
+创建user表, 指定密码不能为空
+
+#### 外键
+外键是用于表和表之间关系的列
+
+#### 示例
+```sql
+create table user(
+	id int primary key auto_increament  COMMENT '主键约束',
+	username varchar(50) unique comment '唯一约束',
+	password varchar(50) not null comment '非空约束',
+	address varchar(50) default null comment '默认为空',
+	...
+);
+```
 
 ### 删库
 ```sql
@@ -161,14 +226,10 @@ alter table user drop column old_name;
 ```sql
 alter table table_name change column old_name new_name varchar(255) default NULL comment '注释';
 ```
-#### 改表-改字段类型
+#### 改表-改字段类型或大小
 ```sql
 alter table table_name modify column column1  decimal(10,1) DEFAULT NULL COMMENT '注释';
 ```
-
-
-
-
 
 # 索引
 
