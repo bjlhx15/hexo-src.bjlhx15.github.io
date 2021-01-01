@@ -15,6 +15,7 @@ date: 2020-02-14 14:05:44
 ``` BASH
 ab -c 10 -n 10 http://www.test.api.com/?gid=2
 ```
+n 总数，c 一次请求
 # 模拟post请求
 
 ## application/x-www-form-urlencoded

@@ -150,6 +150,14 @@ CREATE TABLE `t1` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin
 ```
 
+##### 后添加
+mysql提供了两种方式：
+
+1. unique key   
+alter table data_account_table add unique key traceaccount_srctable(traceaccount,srctabname)
+2. unique index   
+alter table data_account_table add unique no_account_index(no,collection_account);
+
 #### 非空(not null)
 保证所约束的列必须是不为空的，即在插入记录时，该列必须要赋值，例如：用户注册时，保存的密码不能为空。
 创建user表, 指定密码不能为空
