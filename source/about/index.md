@@ -9,7 +9,7 @@ comments: false
 - 涉及技术栈
   - 后端：java、spring（boot、cloud等）、linux shell、分布式系统架构设计、redis、elastsearch、mybatis
   - 前端：react（ant design）、nodejs、js、html、css
-  - 其他：jmter、ab
+  - 其他：jmeter、ab
   - DB：mysql
 - 硬核领域
   - mysql 

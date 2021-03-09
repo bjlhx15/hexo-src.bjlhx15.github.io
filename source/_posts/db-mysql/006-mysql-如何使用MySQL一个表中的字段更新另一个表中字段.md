@@ -2,6 +2,7 @@
 title: 006-mysql-如何使用MySQL一个表中的字段更新另一个表中字段
 categories:
   - db-mysql
+abbrlink: f669f815
 date: 2021-01-01 14:08:12
 ---
 摘要：006-mysql-如何使用MySQL一个表中的字段更新另一个表中字段

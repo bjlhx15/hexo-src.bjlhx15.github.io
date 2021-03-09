@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.bjlhx.top
+url: https://blog.itag.top
 root: /
 #  permalink: :year/:month/:day/:title.html
 permalink: articles/:year:month:day/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink
@@ -46,7 +46,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
